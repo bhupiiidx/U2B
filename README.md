@@ -7,8 +7,8 @@ U2B is Youtube clone application using [rapidApi Youtube v3](https://rapidapi.co
 ### Home
 ![Home Screen](https://github.com/bhupiiidx/U2B/raw/main/src/assets/image/demo/Home.png)
 
-## Search
+### Search
 ![Search](https://github.com/bhupiiidx/U2B/raw/main/src/assets/image/demo/Home.png)
 
-## Mobile
+### Mobile
 ![Search](https://github.com/bhupiiidx/U2B/raw/main/src/assets/image/demo/Home.png)
