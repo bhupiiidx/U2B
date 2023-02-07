@@ -2,6 +2,8 @@
 # U2B
 U2B is Youtube clone application using [rapidApi Youtube v3](https://rapidapi.com/ytdlfree/api/youtube-v31/)
 
+### [Live Site](https://stalwart-cheesecake-976cb1.netlify.app/)
+
 ## Screenshots
 
 ### Home
