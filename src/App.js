@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/system";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from "./components";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<BrowserRouter>
+			<Box className="bg-gray-900 pb-2">
+				<Navbar />
+				<Routes>
+					<Route path="/" element={<Feed />} />
+					<Route path="/video/:videoFeedId" element={<VideoDetail />} />
+					<Route path="/channel/:channelFeedId" element={<ChannelDetail />} />
+					<Route path="/search/:searchTerm" element={<SearchFeed />} />
+				</Routes>
+			</Box>
+		</BrowserRouter>
+	);
 }
 
 export default App;

@@ -10,6 +10,8 @@
 
 # production
 /build
+.vs-code
+.env
 
 # misc
 .DS_Store
